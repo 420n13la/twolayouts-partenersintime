@@ -1,0 +1,61 @@
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+#vermenu{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #E5B816;
+	text-align: center;
+}
+
+#hormenu{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	background-color: #19796B;
+	text-align: center;
+	color: white;
+}
+
+#vermenu h1{
+	width: 60%;
+	font-family: 'Special Elite', cursive;
+	border: 2px solid black;
+	margin: 7em auto;
+	padding: 1em;
+}
+
+#hormenu h1{
+	width: 60%;
+	font-family: 'Special Elite', cursive;
+	border: 2px solid white;
+	margin: 7em auto;
+	padding: 1em;
+}
+
+a{
+	text-decoration: none;
+}
+
+#vermenu a{
+	color: black;
+}
+
+#hormenu a{
+	color: white;
+}
