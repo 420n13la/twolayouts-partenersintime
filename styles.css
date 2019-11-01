@@ -11,6 +11,43 @@ body{
 	padding: 0;
 	text-align: center;
 }
+
+header{
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	background-color: #C17D14;
+	display: inline-block;
+	width: 90%;
+	
+}
+
+footer{
+	width: 90%;
+	font-family: 'Special Elite', cursive;
+	background-color: #C17D14;
+    display: inline-block;
+	text-align: center;
+}
+
+.navbro{
+	float: left;
+	height: 100%;
+	width: 10%;
+	display: inline-block;
+	background-color: #F9B62F;
+}
+
+.navbro a{
+	color: black;
+}
+
+.navbro ul{
+	font-family: 'Special Elite', cursive;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 *{
 	box-sizing: border-box;
 }
